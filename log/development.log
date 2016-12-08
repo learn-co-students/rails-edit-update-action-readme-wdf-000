@@ -421,3 +421,26 @@ Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-12-31 14:38:13 -0600
+
+
+Started GET "/" for ::1 at 2016-12-08 17:06:07 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/AlanGoa/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (1.4ms)
+Completed 200 OK in 22ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-08 17:14:47 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/AlanGoa/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (1.3ms)
+Completed 200 OK in 18ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/properties" for ::1 at 2016-12-08 17:14:52 -0500
+Processing by Rails::InfoController#properties as */*
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  Rendered /Users/AlanGoa/.rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/templates/rails/info/properties.html.erb (0.3ms)
+Completed 200 OK in 30ms (Views: 26.4ms | ActiveRecord: 0.2ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
